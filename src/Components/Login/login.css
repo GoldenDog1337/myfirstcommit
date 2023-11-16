@@ -1,0 +1,84 @@
+.container {
+display: flex;
+flex-direction: column;
+
+margin: auto;
+    margin-top: 240px;
+    background: #ffffff;
+    border-radius: 20px;
+    height: 427px;
+    width: 598px;
+
+
+    padding-top: 25px;
+
+
+}
+.header {
+    font-family: "Inter-Bold",sans-serif;
+    margin-left: 32px;
+}
+.enter {
+    font-size: 32px;
+    font-weight: 700;
+    height: 69px;
+}
+.inputs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.login input {
+
+
+    height: 55px;
+    width: 526px;
+    border: 2px solid;
+    border-color: #000000;
+    border-radius: 10px;
+
+}
+.login p {
+    font-family: "Inter-Medium", sans-serif;
+    position: relative;
+    top:26px;
+    font-size: 24px;
+    font-weight: 500;
+    height: 31px;
+
+}
+.password input {
+    border: 2px solid;
+    border-color: #000000;
+    border-radius: 10px;
+    height: 55px;
+    width: 526px;
+    position: relative;
+    bottom: 26px;
+}
+.password p {
+    font-family: "Inter-Medium",sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    height: 31px;
+}
+.button {
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+button {
+    font-family: "Inter-SemiBold", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 19px;
+    background-color: #5b6fe8;
+    border-radius: 10px;
+    height: 55px;
+    width: 526px;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
